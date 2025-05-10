@@ -1575,7 +1575,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Ice Beam"),
         .description = COMPOUND_STRING(
             "Blasts the foe with an icy\n"
-        #if B_USE_FROSTBITE == TRUE
+        #if B_USE_FROSTBITE == FALSE
             "beam. May cause frostbite."),
         #else
             "beam that may freeze it."),
